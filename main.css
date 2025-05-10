@@ -1,0 +1,64 @@
+@import url("fonts/AzoSans/stylesheet.css");
+
+body {
+    background-color: rgb(255, 123, 0);
+}
+
+/*---Навигатор---*/
+
+.navbar {
+    margin-top: 45px;
+    margin-left: 40px;
+    padding: 0;
+    background-color: rgb(255, 123, 0);
+}
+
+.navbar-brand {
+    margin-right: 866px;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+
+.nav-item {
+    margin-right: 30px;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    text-transform: uppercase;
+
+    text-emphasis-color: #ff0084;
+
+}
+
+.navbar-nav .nav-item .btn {
+    background: #FFFFFF;
+    border-radius: 52px;
+
+    width: 147px;
+    height: 48px;
+
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #191B21;
+}
+
+/*---Секция 1---*/
