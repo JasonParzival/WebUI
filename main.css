@@ -1,7 +1,11 @@
 @import url("fonts/AzoSans/stylesheet.css");
 
 body {
-    background-color: rgb(255, 123, 0);
+    /*background-color: rgb(255, 123, 0);*/
+    background-image: url("/images/Vector1.png"), url("/images/Vector2.png"), url("/images/Vector3.png"), url("/images/Vector4.svg");
+    
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 /*---Навигатор---*/
@@ -9,8 +13,9 @@ body {
 .navbar {
     margin-top: 45px;
     margin-left: 40px;
+    margin-bottom: 30px;
     padding: 0;
-    background-color: rgb(255, 123, 0);
+    /*background-color: rgb(255, 123, 0);*/
 }
 
 .navbar-brand {
@@ -43,7 +48,7 @@ body {
 }
 
 .navbar-nav .nav-item .btn {
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     border-radius: 52px;
 
     width: 147px;
@@ -59,6 +64,90 @@ body {
     text-transform: uppercase;
 
     color: #191B21;
+    margin-right: 100px;
 }
 
 /*---Секция 1---*/
+
+.section-intro {
+    /*background-color: rgb(255, 255, 255);*/
+    /*padding-top: 175px;*/
+
+    background-image: url("/images/youngman.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 785px
+}
+
+.section-intro .container {
+    padding-top: 175px;
+
+    background-image: url("/images/glassesman.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) top;
+    height: 785px
+}
+
+.section-intro .intro-tagline-text {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 54px;
+    /* identical to box height, or 300% */
+
+    color: #2278D5;
+}
+
+.section-intro .intro-promotion {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    /* or 112% */
+
+    color: #191B21;
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.section-intro .intro-comment {
+    font-family: 'Azo Sans Lt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #191B21;
+
+    opacity: 0.6;
+
+}
+
+.section-intro .btn-learn-more {
+    width: 147px;
+    height: 48px;
+
+    background: #22A75D;
+    border-radius: 52px;
+    border: 0;
+
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-top: 40px;
+}
+
