@@ -554,3 +554,37 @@ body {
 
 /*---Секция 6---*/
 
+.section-buy {
+    margin-top: 90px;
+}
+
+.section-buy .buy-title {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    /* identical to box height, or 150% */
+
+    color: #F7F5F9;
+    margin-bottom: 30px;
+}
+
+.section-buy .buy-text {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.section-buy .ChevronImage {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
