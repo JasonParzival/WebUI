@@ -297,5 +297,74 @@ body {
 /*---Секция 3---*/
 
 .section-years {
-    margin-top: 140px;
+    padding-top: 140px;
+
+    white-space: nowrap;
+
+    background-image: url("/images/objects/PaperAirPlane.svg");
+    background-repeat: no-repeat;
+    /*background-position: calc(50% - 15px) calc(50% - 15px);*/
+    background-position: calc(100% - 40px) 30px;
+}
+
+.section-years .years{
+    background-image: url("/images/objects/LineToCircles.svg");
+    background-repeat: no-repeat;
+    /*background-position: calc(50% - 15px) calc(50% - 15px);*/
+    background-position: 3px calc(100% - (100% - 78px));
+}
+
+.section-years .years-text {
+    margin-right: 80px;
+}
+
+.section-years .years-text_Q {
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 338% */
+
+    color: #22A75D;
+}
+
+.section-years .years-text_year {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height, or 150% */
+
+    color: #191B21;
+}
+
+.section-years .years-list-text {
+    font-family: 'Azo Sans';
+    font-style: normal;
+}
+
+.section-years .years-list-text_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    /* or 189% */
+
+    color: #191B21;
+
+    opacity: 0.7;
+}
+
+.section-years .years-list-text_num {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    /* identical to box height, or 283% */
+    color: #2278D4;
+    margin-right: 21px;
+}
+
+.section-years img {
+    margin-bottom: 100px;
 }
