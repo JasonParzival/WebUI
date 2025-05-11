@@ -8,7 +8,8 @@ body {
     url("/images/background/Vector3.png"), 
     url("/images/background/Vector4.svg"),
     url("/images/background/Subtract.svg"),
-    url("/images/background/Subtract2.svg");
+    url("/images/background/Subtract2.svg"),
+    url("/images/background/Footer.svg");
     
     background-repeat: no-repeat;
     background-position: 
@@ -17,7 +18,8 @@ body {
     right top,
     right top,
     calc(50% + 132px) 3131px,
-    calc(50% + 132px) 4429px;
+    calc(50% + 132px) 4429px,
+    calc(50% + 132px) 5888px;
 }
 
 /*---Навигатор---*/
@@ -587,4 +589,87 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
+}
+
+/*---Секция Футер---*/
+
+.section-footer {
+    margin-top: 324px;
+    margin-bottom: 178px;
+}
+
+.section-footer .footer-sign {
+    margin-left: 66px;
+    margin-right: 66px;
+
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.16;
+
+}
+
+.section-footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.section-footer .footer-btn-top {
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.section-footer .footer-bottom {
+    margin-top: 128px;
+}
+
+.section-footer .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-footer .footer-bottom .footer-bottom-links {
+    text-align: center; 
+}
+
+.section-footer .footer-bottom .footer-bottom-author .footer-bottom-author_rights {
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.section-footer .footer-bottom .footer-bottom-author .footer-bottom-author_design {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+    opacity: 0.3;
 }
