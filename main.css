@@ -7,7 +7,8 @@ body {
     url("/images/background/Vector2.png"), 
     url("/images/background/Vector3.png"), 
     url("/images/background/Vector4.svg"),
-    url("/images/background/Subtract.svg");
+    url("/images/background/Subtract.svg"),
+    url("/images/background/Subtract2.svg");
     
     background-repeat: no-repeat;
     background-position: 
@@ -15,7 +16,8 @@ body {
     right top,
     right top,
     right top,
-    calc(50% + 132px) 3131px;
+    calc(50% + 132px) 3131px,
+    calc(50% + 132px) 4429px;
 }
 
 /*---Навигатор---*/
@@ -413,3 +415,142 @@ body {
     font-family: 'Azo Sans Md';
     /*font-weight: bold;*/
 }
+
+/*---Секция 5---*/
+
+.section-presale {
+    margin-top: 340px;
+}
+
+.section-presale .presale_title {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    /* identical to box height, or 112% */
+    color: #F7F5F9;
+    margin-bottom: 40px;
+}
+
+.section-presale .presale-block-first {
+    width: 511px;
+    height: 585px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+
+    background-image: url("/images/objects/PhaseOne.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.section-presale .presale-block-second {
+    width: 511px;
+    height: 585px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+
+    background-image: url("/images/objects/PhaseTwo.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+
+    margin: 60px 20px 0 20px;
+}
+
+.section-presale .presale-block-third {
+    width: 511px;
+    height: 585px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+
+    background-image: url("/images/objects/PhaseThree.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.section-presale .presale-block_title {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 54px;
+    /* identical to box height, or 169% */
+    text-align: center;
+
+    color: #191B21;
+
+    margin-top: 170px;
+    margin-bottom: 4px;
+}
+
+.section-presale .presale-block_dates {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+
+    margin-bottom: 70px;
+}
+
+.section-presale .presale-block_exchange {
+    font-family: 'Azo Sans Md';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    text-wrap: nowrap;
+
+    color: #191B21;
+
+    opacity: 0.8;
+    margin: 0 140px 20px 140px;
+}
+
+.section-presale .presale-block_cap {
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    text-align: center;
+
+    color: #191B21;
+
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.section-presale .presale-block_capbold {
+    font-family: 'Azo Sans Md';
+}
+
+.FirstImage {
+  position: absolute; 
+  top: 349px;       
+  left: calc(50% - 115px - 170px);     
+  z-index: 10;     
+}
+
+.SecondImage {
+  position: absolute; 
+  top: 349px;       
+  left: calc(50% + 290px);     
+  z-index: 10;     
+}
+
+/*---Секция 6---*/
+
