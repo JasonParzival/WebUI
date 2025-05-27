@@ -1,5 +1,9 @@
 @import url("fonts/AzoSans/stylesheet.css");
 
+.d-flex {
+    justify-content: center;
+}
+
 body {
     /*background-color: rgb(255, 123, 0);*/
     background-image: 
@@ -17,9 +21,9 @@ body {
     right top,
     right top,
     right top,
-    calc(50% + 132px) 3131px,
-    calc(50% + 132px) 4429px,
-    calc(50% + 132px) 5888px;
+    center 3131px,
+    center 4429px,
+    center 5888px;
 }
 
 /*---Навигатор---*/
@@ -85,6 +89,9 @@ body {
 
 .section-intro .container {
     padding-top: 175px;
+
+    /*display: flex;*/
+    justify-content: left;
 
     background-image: url("/images/people/glassesman.svg");
     background-repeat: no-repeat;
@@ -161,7 +168,7 @@ body {
     height: 1738px;
     background-image: url("/images/background/MiddleVector.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% + 132px) 524px;
+    background-position: center 524px;
     background-size: 2493px 1212px;
 }
 
